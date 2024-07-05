@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaCUjHDBuLM1uffdLhu6OjRw5PfpreQ3-WpQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe84wk8c9Bnh8EL8IN0RXquRIHHFHzl4Pkzw&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+
+button {
+    padding: 10px;
+
+    font-size: 17px;
+    background: cornsilk;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: orange;
+    box-shadow: 2px 5px 2px orangered; 
+    border-radius: 10px;
+    border: 2px 5px;
+    
+}
+button:hover{
+    background-color: palevioletred;
+}
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li.purchased label {
+    text-decoration: line-through;
+    color: gray;
+
+}
+
+.Head{
+    display: flex;
+    color: orange;
+    font-size: -1.6em;
+    text-shadow: 5px 5px 5px greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const renderList = () => {
         shoppingList.innerHTML = items.map((item, index) => `
-            <li class="${item.purchased ? 'purchased' : ''}">
+            <li class="${item.purchased ? 'purchased' : ''}" id="li">
                 <input type="checkbox" ${item.purchased ? 'checked' : ''} onchange="togglePurchased(${index})">
                 <label contentEditable="true" onblur="updateItemName(${index}, this.textContent)">${item.name}</label>
                 <button onclick="deleteItem(${index})">🚮</button>

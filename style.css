@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -6,19 +5,33 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaCUjHDBuLM1uffdLhu6OjRw5PfpreQ3-WpQ&s);
-    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/originals/49/48/72/494872adcf51b55e610b7d3d13e50fdc.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#main-header {
+    position: absolute;
+    top: 1.5px;
+    color: red;
+    animation: rotate 2s infinite linear;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: fantasy;
 }
 
+
+
+
 .container {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe84wk8c9Bnh8EL8IN0RXquRIHHFHzl4Pkzw&s);
-    background-size: cover;
-    background-repeat: no-repeat;
+    opacity: 0.9; /* Adjusted opacity for better readability */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
     width: 300px;
+    background-color: rgba(255, 255, 255, 0.1); /* Background color for contrast */
 }
 
 input {
@@ -30,12 +43,10 @@ input {
     margin-right: 10px;
     box-sizing: border-box;
     cursor: pointer;
-    
 }
 
 button {
     padding: 10px;
-
     font-size: 17px;
     background: cornsilk;
     cursor: pointer;
@@ -44,11 +55,11 @@ button {
     box-shadow: 2px 5px 2px orangered; 
     border-radius: 10px;
     border: 2px 5px;
-    
 }
-button:hover{
-    background-color: palevioletred;
+button:hover {
+    color: #000;
 }
+
 li {
     display: flex;
     align-items: center;
@@ -59,14 +70,27 @@ li {
 li.purchased label {
     text-decoration: line-through;
     color: gray;
-
 }
 
-.Head{
+.Head {
     display: flex;
-    color: orange;
-    font-size: -1.6em;
+    color: red;
     text-shadow: 5px 5px 5px greenyellow;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+li {
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 5px white;
+    color: red;
+    border-radius: 4px;
+    font-family: "Exo 2", sans-serif; 
+    display: flex; 
+    justify-content: space-between;
+    font-size: 25px;
     font-weight: bold;
 }

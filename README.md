@@ -66,3 +66,9 @@ A simple interactive shopping list application that allows you to add, mark, edi
 
 ## Author
 @Keith Mwai works .com
+
+***And click the link below for the preview on the page.***
+
+
+`https://plug-keith.github.io/code-challenge--2/`
+

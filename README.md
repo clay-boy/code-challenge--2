@@ -6,15 +6,19 @@ A simple interactive shopping list application that allows you to add, mark, edi
 
 - **Add Items**: Add new items to your list.
 - **Mark as Purchased**: Check items off as purchased.
-- **Edit Items**: Edit item names directly in the list.
 - **Persistent Storage**: Items are saved automatically.
 - **Clear List**: Remove all items at once.
 
 ## Setup
-
+1. **Fork the Repo**
+   ```bash
+   To fork this repo use the link below 
+   https://github.com/plug-keith/code-challenge--2.git
+   ```
+   *(Enter the link then fork the Repo.)*
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/interactive-shopping-list.git
+   git clone git@github.com:plug-keith/code-challenge--2.git
    ```
    *(Replace `your-username` with your GitHub username.)*
 
@@ -44,7 +48,7 @@ A simple interactive shopping list application that allows you to add, mark, edi
 1. **Fork the repository**.
 2. **Clone your fork**.
    ```bash
-   git clone https://github.com/your-username/interactive-shopping-list.git
+   git clone https://github.com/plug-keith/code-challenge--2.git
    ```
 3. **Create a new branch**.
    ```bash
@@ -61,5 +65,10 @@ A simple interactive shopping list application that allows you to add, mark, edi
 6. **Create a pull request**.
 
 ## Author
-Keith Mwai# code-challenge--2
-# code-challenge--2
+@Keith Mwai works .com
+
+***And click the link below for the preview on the page.***
+
+
+`https://plug-keith.github.io/code-challenge--2/`
+
